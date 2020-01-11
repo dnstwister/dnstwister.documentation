@@ -52,7 +52,7 @@ How it works
 ------------
 
 Let's say you `do a dnstwister search on www.example.com
-<https://dnstwister.report/search/7777772e6578616d706c652e636f6d>`_.
+<https://dnstwister.report/search?ed=7777772e6578616d706c652e636f6d>`_.
 
 Firstly, **dnstwister** will generate a list of similar domains - something
 like:
@@ -86,8 +86,7 @@ for all the domain references?
 
 Corporate firewalls and proxies will often block malicious domains even if
 they are only part of a query string in the URL- eg
-`https://dnstwister.report/search/[malicious domain]
-<#faq>`_.
+https://dnstwister.report/search?ed=[malicious domain].
 
 By encoding the domain as hexidecimal you can still perform your searches and
 analysis.
